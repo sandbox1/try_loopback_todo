@@ -1,5 +1,8 @@
 # Try Loopback 4 todo-list
 
+Based on Loopback [Getting Started Guide](https://loopback.io/doc/en/lb4/Getting-started.html)
+
+
 [![LoopBack](https://github.com/strongloop/loopback-next/raw/master/docs/site/imgs/branding/Powered-by-LoopBack-Badge-(blue)-@2x.png)](http://loopback.io/)
 
 

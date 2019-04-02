@@ -26,7 +26,7 @@
     "test": "lb-mocha --allow-console-logs \"dist/__tests__\"",
     "posttest": "npm run lint",
     "test:dev": "lb-mocha --allow-console-logs dist/__tests__/**/*.js && npm run posttest",
-      "migrate": "node ./dist/migrate",
+    "migrate": "node ./dist/migrate",
     "prestart": "npm run build",
     "start": "node .",
     "prepublishOnly": "npm run test"
@@ -52,14 +52,15 @@
     "@loopback/repository": "^1.2.1",
     "@loopback/rest": "^1.9.1",
     "@loopback/rest-explorer": "^1.1.13",
-    "@loopback/service-proxy": "^1.1.1"
+    "@loopback/service-proxy": "^1.1.1",
+    "loopback-connector-postgresql": "^3.6.0"
   },
   "devDependencies": {
     "@loopback/build": "^1.4.0",
     "@loopback/testlab": "^1.2.1",
     "@loopback/tslint-config": "^2.0.3",
     "@types/node": "^10.11.2",
-        "tslint": "^5.12.0",
-        "typescript": "^3.3.1"
+    "tslint": "^5.12.0",
+    "typescript": "^3.3.1"
   }
 }
